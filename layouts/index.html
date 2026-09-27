@@ -5,7 +5,7 @@
   {{ range first 20 (sort (where .Site.RegularPages "Section" "in" (slice "dev-ops" "dnd" "phi")) "Date" "desc") }}
   <li>
     <a href="{{ .RelPermalink }}"><span class="section-tag">{{ .Section }}</span>{{ .Title }}</a>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
   </li>
   {{ end }}
 </ul>

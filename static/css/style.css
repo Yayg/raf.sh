@@ -95,6 +95,21 @@ nav.site-nav {
 nav.site-nav a { color: var(--fg-dim); }
 nav.site-nav a:hover, nav.site-nav a.active { color: var(--accent); }
 
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.15rem 0.45rem;
+}
+.lang-current { color: var(--accent); font-weight: 700; }
+.lang-other { color: var(--fg-dim); border-bottom: none; }
+.lang-other:hover { color: var(--accent); }
+.lang-sep { color: var(--border); }
+
 .theme-toggle {
   background: none;
   border: 1px solid var(--border);

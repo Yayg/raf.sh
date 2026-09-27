@@ -1,16 +1,16 @@
 baseURL = "https://raf.sh/"
-languageCode = "en-us"
 title = "raf.sh"
+
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
 
 enableRobotsTXT = true
 enableEmoji = true
 rssLimit = 15
 
 [params]
-  author = "Rafael Gozlan"
-  description = "Homepage and blog by Rafael Gozlan"
   prompt = "raf@sh"
-  tagline = "software dev, sometimes DevOps, occasional GM"
+  description = "Personal homepage and blog"
 
   [[params.social]]
     name = "email"
@@ -25,26 +25,60 @@ rssLimit = 15
     name = "leetcode"
     url  = "https://leetcode.com/just_raf/"
 
-[[menu.main]]
-  identifier = "dev-ops"
-  name = "Dev&Ops"
-  url = "/dev-ops/"
-  weight = 10
-[[menu.main]]
-  identifier = "dnd"
-  name = "D&D"
-  url = "/dnd/"
-  weight = 20
-[[menu.main]]
-  identifier = "phi"
-  name = "φ"
-  url = "/phi/"
-  weight = 30
-[[menu.main]]
-  identifier = "about"
-  name = "about"
-  url = "/about/"
-  weight = 40
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr-fr"
+    weight = 1
+    [languages.fr.params]
+      tagline = "dev, parfois ops, MJ à l'occasion"
+    [[languages.fr.menu.main]]
+      identifier = "dev-ops"
+      name = "Dev&Ops"
+      url = "/dev-ops/"
+      weight = 10
+    [[languages.fr.menu.main]]
+      identifier = "dnd"
+      name = "D&D"
+      url = "/dnd/"
+      weight = 20
+    [[languages.fr.menu.main]]
+      identifier = "phi"
+      name = "φ"
+      url = "/phi/"
+      weight = 30
+    [[languages.fr.menu.main]]
+      identifier = "about"
+      name = "à propos"
+      url = "/about/"
+      weight = 40
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 2
+    [languages.en.params]
+      tagline = "software dev, sometimes ops, occasional GM"
+    [[languages.en.menu.main]]
+      identifier = "dev-ops"
+      name = "Dev&Ops"
+      url = "/dev-ops/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "dnd"
+      name = "D&D"
+      url = "/dnd/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "phi"
+      name = "φ"
+      url = "/phi/"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "about"
+      url = "/about/"
+      weight = 40
 
 [markup]
   [markup.highlight]

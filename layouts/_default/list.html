@@ -6,7 +6,7 @@
   {{ range .Pages.ByDate.Reverse }}
   <li>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
   </li>
   {{ end }}
 </ul>
