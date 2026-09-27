@@ -1,0 +1,8 @@
+<img
+  {{ with .Get "style" }}style="{{ . }}"{{ end }}
+  {{ with .Get "width" }}width="{{ . }}"{{ end }}
+  {{ with .Get "id" }}id="{{ . }}"{{ end }}
+  src="{{ .Get "src" }}"
+  loading="lazy"
+  alt=""
+>

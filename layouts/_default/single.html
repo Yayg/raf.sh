@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ if not .Date.IsZero }}
+  <p class="post-meta">
+    {{ .Date.Format "Jan 2, 2006" }}
+    {{ with .Params.tags }}
+      {{ $tags := where . "!=" "untagged" }}
+      {{ with $tags }} &middot; {{ delimit . ", " }}{{ end }}
+    {{ end }}
+  </p>
+  {{ end }}
+  {{ .Content }}
+</article>
+{{ end }}

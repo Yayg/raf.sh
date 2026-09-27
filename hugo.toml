@@ -1,0 +1,55 @@
+baseURL = "https://raf.sh/"
+languageCode = "en-us"
+title = "raf.sh"
+
+enableRobotsTXT = true
+enableEmoji = true
+rssLimit = 15
+
+[params]
+  author = "Rafael Gozlan"
+  description = "Homepage and blog by Rafael Gozlan"
+  prompt = "raf@sh"
+  tagline = "software dev, sometimes DevOps, occasional GM"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:me@raf.sh"
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/Yayg"
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/5091340/yayg"
+  [[params.social]]
+    name = "leetcode"
+    url  = "https://leetcode.com/just_raf/"
+
+[[menu.main]]
+  identifier = "dev-ops"
+  name = "Dev&Ops"
+  url = "/dev-ops/"
+  weight = 10
+[[menu.main]]
+  identifier = "dnd"
+  name = "D&D"
+  url = "/dnd/"
+  weight = 20
+[[menu.main]]
+  identifier = "phi"
+  name = "φ"
+  url = "/phi/"
+  weight = 30
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  url = "/about/"
+  weight = 40
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

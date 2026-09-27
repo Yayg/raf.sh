@@ -1,0 +1,11 @@
+<header class="site-header">
+  <a class="logo" href="{{ "/" | relURL }}">
+    <span class="prompt">{{ .Site.Params.prompt | default "raf@sh" }}</span>:~$<span class="cursor">&nbsp;</span>
+  </a>
+  <nav class="site-nav">
+    {{ range .Site.Menus.main }}
+    <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
+    {{ end }}
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme">◐</button>
+  </nav>
+</header>
