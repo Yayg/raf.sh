@@ -55,27 +55,3 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-
-  deploy:
-    needs: build
-    if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout kamos-ansible
-        uses: actions/checkout@v4
-        with:
-          repository: Yayg/kamos-ansible
-          token: ${{ secrets.KAMOS_ANSIBLE_PAT }}
-
-      - name: Pin raf-sh deployment to this build's image
-        run: |
-          SHORT_TAG="sha-$(echo "${{ github.sha }}" | cut -c1-7)"
-          sed -i "s#image: ghcr.io/yayg/raf.sh:.*#image: ghcr.io/yayg/raf.sh:${SHORT_TAG}#" argocd/raf-sh/deployment.yaml
-          git config user.name "raf-sh-ci"
-          git config user.email "4986194+Yayg@users.noreply.github.com"
-          if git diff --quiet; then
-            echo "Already pinned to ${SHORT_TAG}, nothing to do"
-            exit 0
-          fi
-          git commit -am "raf-sh: deploy ${SHORT_TAG}"
-          git push
