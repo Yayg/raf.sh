@@ -1,5 +1,5 @@
 ---
-title: "Le Retour des Nétherois"
+title: "Le Retour des Nétherils"
 date: 2019-12-25T20:16:15Z
 draft: false
 comments: false
@@ -10,7 +10,7 @@ images:
 
 Ceci est une courte aventure (5-6 sessions) pour un groupe de 4 personnages
 de niveau 10, dont le but est d'emmener les joueurs à travers d'anciennes
-ruines nétheroises abritant l'un des artefacts les plus importants de
+ruines nétheriles abritant l'un des artefacts les plus importants de
 Toril.
 
 Notez que je ne suis ni écrivain ni MJ expérimenté en D&D, je suis juste un
@@ -42,7 +42,7 @@ domaines le long de la Mer Étroite.
 
 <br/> L'empire fut l'apogée de la civilisation humaine durant la première
 moitié de l'Âge de l'Humanité. Bien qu'ayant des origines humbles de
-pêcheurs et de fermiers, les Nétherois furent initiés à l'Art par les elfes
+pêcheurs et de fermiers, les Nétherils furent initiés à l'Art par les elfes
 d'Eaerlann, et parvinrent à maîtriser ce pouvoir arcanique d'une façon qui
 allait façonner Toril pour des générations. Au cours du millénaire suivant,
 ils découvrirent les Parchemins de Néther depuis longtemps perdus,
@@ -63,7 +63,7 @@ Le Haut Nétheril fut ruiné en quelques heures, tandis que le Bas Nétheril
 connut un déclin long et agonisant à cause des aberrants Phaerimms.
 L'enclave de Thultanthar fut transportée dans le Plan des Ombres, où elle
 resta pendant 1700 ans. À leur retour à Toril à la fin du 14e siècle CV,
-le peuple nétherois marqué par l'ombre, connu sous le nom de Shadovar,
+le peuple nétheril marqué par l'ombre, connu sous le nom de Shadovar,
 raviva l'Empire et asservit les peuples du nord de Féerune pendant plus
 d'un siècle. Alors qu'ils cherchaient à fusionner la Trame avec le Plan des
 Ombres, l'Enclave de l'Ombre s'écrasa sur le royaume renaissant de Myth
@@ -287,7 +287,7 @@ Pendant qu'ils progressent, l'ombre peut à nouveau surgir et attaquer avec
 différents types d'ennemis : des [horreurs](https://5e.tools/bestiary.html#shadow%20horror_ggr)
 et des [assassins](https://5e.tools/bestiary.html#shadow%20assassin_wdmm)
 S'ils regardent les murs autour d'eux, ils pourraient découvrir que
-l'endroit était une ancienne capitale nétheroise, aujourd'hui ensevelie
+l'endroit était une ancienne capitale nétherile, aujourd'hui ensevelie
 sous le sable.
 (ces gens formaient un empire humain magocratique et des cités volantes
 qui accédèrent à un grand pouvoir et furent détruits durant le Grand
