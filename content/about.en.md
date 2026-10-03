@@ -3,7 +3,12 @@ title: "about"
 aliases: ["about-us", "about-raf", "contact"]
 ---
 
-By day I'm a software dev (more DevOps these days since it's fashionable).
+By day I'm a software dev — increasingly on the infra/ops side these days,
+currently mostly for AP-HP, the Paris public hospital system. Lots of
+Kubernetes, automation, and stuff that has to keep running quietly.
+
+By night it's more this cluster, D&D, and projects I decided on a whim
+had to exist.
 
 But we are so much more than a mere job title, am I right?
 
